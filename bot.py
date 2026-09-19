@@ -3,7 +3,7 @@ from telegram import Bot
 from datetime import datetime, timedelta
 import pytz
 
-BOT_TOKEN = "8644554852:AAGTZX1MNtWKr-IUO_umwy_QYZJDDFuXfFE"
+BOT_TOKEN = "8644554852:AAEtSAM-R6Xr4XEdWCCuPH8k7SEMOHh52Zo"
 CHANNEL_ID = -1004211199703
 
 async def send_signal():
