@@ -1,5 +1,4 @@
-
- import asyncio
+import asyncio
 from telegram import Bot
 from datetime import datetime, timedelta
 import pytz
@@ -35,4 +34,4 @@ async def main():
     await send_signal()
 
 if __name__ == "__main__":
-    asyncio.run(main()) 
+    asyncio.run(main())
