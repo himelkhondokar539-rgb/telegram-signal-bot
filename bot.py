@@ -1,10 +1,9 @@
-8644554852:AAGTZX1MNtWKr-IUO_umwy_QYZJDDFuXfFE
-import asyncio
+
+ import asyncio
 from telegram import Bot
 from datetime import datetime, timedelta
 import pytz
 
-# ⚠️ এখানে তোমার নতুন টোকেন বসানো আছে
 BOT_TOKEN = "8644554852:AAGTZX1MNtWKr-IUO_umwy_QYZJDDFuXfFE"
 CHANNEL_ID = -1004211199703
 
@@ -26,8 +25,8 @@ async def send_signal():
 🔍 Mode ➡ OTC Market (Weekend Mode)
 ~~~~~~~~~~~~~~~~~~~~~~
 ⚡ Provider: @HM_HIMEL_VIP
-📢 Join Channel: Quotex Binary 94
-💎 Create Account & Join VIP Channel
+📢 Join Channel: https://t.me/quotex_binary94
+💎 Create Account & Join VIP: https://broker-qx.pro/sign-up/?lid=2061219
 """
     await bot.send_message(chat_id=CHANNEL_ID, text=message)
     print(f"Signal sent at {now.strftime('%H:%M:%S')}")
@@ -36,5 +35,4 @@ async def main():
     await send_signal()
 
 if __name__ == "__main__":
-    asyncio.run(main())
-  
+    asyncio.run(main()) 
